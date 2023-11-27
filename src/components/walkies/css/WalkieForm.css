@@ -1,0 +1,83 @@
+.walkieform-container {
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    /* text-align: center; */
+    justify-content: center;
+    padding: 30px 30px 30px 0px;
+    background: linear-gradient(
+      270deg,
+      rgba(123, 184, 177, 1) 1%,
+      rgba(247, 247, 239, 1) 100%
+    );
+  }
+  
+  .dog1-card {
+    flex: 1;
+  }
+  .w-dog-image {
+    height: 600px;
+    width: auto;
+    padding-left: 100px;
+  }
+  .dog2-card{
+    flex:3;
+  }
+  .walkieform-card {
+    flex: 2;
+    flex: 0 0 30%;
+    background-color: #fff;
+    padding: 30px 60px;
+    border-radius: 10px;
+    margin: 150px;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    align-items: center;
+    box-shadow: -7px 7px 100px #e6e6e6, 7px -7px 100px #ffffff;
+  }
+  input {
+    padding: 5px;
+    width: 250px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .label {
+    display: block;
+  }
+  
+  .wf-button{
+    background-color: #9ccac5;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: 20%;
+    width: 60%;
+    padding: 10px;
+    border-radius: 20px;
+    box-shadow: -7px 7px 30px #9ccac5, 7px -7px 100px #ffffff;
+    cursor: pointer;
+  }
+
+  .wf-button:hover{
+    background-color: white;
+  }
+  .wf-button-info{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    font-variant: small-caps;
+    font-weight: bold;
+  }
+  .wf-button-info:hover{
+    color: #9ccac5;
+
+  }
+
+  .wf-title{
+    padding-bottom: 10px;
+  }

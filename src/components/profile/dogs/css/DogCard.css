@@ -1,0 +1,96 @@
+.dog-card-container {
+  margin-top: 100px;
+  height: 95vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(
+    270deg,
+    rgba(123, 184, 177, 1) 1%,
+    rgba(247, 247, 239, 1) 100%
+  );
+  padding-top: 20px;
+}
+
+.dog-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0px auto;
+  text-align: center;
+  padding: 50px;
+  height: 400px;
+  width: 680px;
+  border-radius: 10px;
+  box-shadow: -7px 7px 100px #e6e6e6, 7px -7px 100px #ffffff;
+}
+
+.dg-back-button{
+  /* background-color: #9ccac5; */
+  background-color: white;
+  align-items: center;
+  margin-top: 10px;
+  margin-left: 20%;
+  width: 60%;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: -7px 7px 30px #ffffff, 7px -7px 100px #9ccac5;
+  cursor: pointer;
+}
+.dg-back-button:hover{
+  background-color:#9ccac5 ;
+}
+
+.gd-back-button-info{
+  color: #9ccac5;
+  text-decoration: none;
+  font-size: 15px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+
+.gd-back-button-info:hover{
+  color: white;
+}
+
+.dog-card-details {
+  flex: 1;
+  padding-top: 10px;
+  font-size: 16px;
+  text-align: start;
+  padding-left: 30px;
+  color: #253649;
+}
+
+.dog-img {
+  height: 300px;
+  width: auto;
+}
+
+.mem-btn.button {
+  color: #253649;
+  font-size: 16px;
+}
+
+.dog-list {
+  display: flex;
+}
+
+@media (max-width: 768px) {
+  .dog-card-wrapper {
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    text-align: center;
+    width: 350px;
+    padding: 20px;
+  }
+  .dog-card-container {
+    height: 693px;
+    padding: 20px;
+    margin: unset !important;
+  }
+  .dog-img{
+    width: 80%;
+    margin-left: 10%;
+  }
+}

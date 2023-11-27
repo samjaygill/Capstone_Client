@@ -1,0 +1,176 @@
+.member-card-container {
+  margin-top: 50px;
+  min-height: 93vh;
+  display: flex;
+  justify-content: center;
+  background: linear-gradient(
+    270deg,
+    rgba(123, 184, 177, 1) 1%,
+    rgba(247, 247, 239, 1) 100%
+  );
+  padding: 80px;
+}
+
+.member-card-wrapper {
+  display: flex;
+  flex-direction: row;
+  margin: 0px 0px;
+  text-align: center;
+  padding: 2% 3%;
+  height: auto;
+  width: 100%;
+  max-width: 70vh;
+  max-height: 68vh;
+  border-radius: 10px;
+  box-shadow: -7px 7px 100px #e6e6e6, 7px -7px 100px #ffffff;
+
+}
+.member-card-details {
+  flex: 1;
+}
+.mc-dog-image{
+  width: 80px;
+  height: auto;
+}
+.dog-details {
+  flex: 2 right;
+  text-align: left !important;
+  justify-content: left;
+  text-decoration: none;
+  color: black;
+  justify-content: center;
+  height:auto;
+  margin: 40px 50px 0px 0px;
+  font-size: 13px;
+
+}
+
+.dogs-list{
+  padding-bottom: 40px;
+  list-style: none;
+}
+
+.card-details {
+  padding-top: 10px;
+  font-size: 15px;
+}
+.mc-image {
+  height: auto;
+  width: 220px;
+  max-height: 340px;
+  max-width: 60%;
+}
+
+.name {
+  font-weight: bold;
+  padding-top: 10px;
+  font-size: 24px;
+}
+.dog-link{
+  color: black;
+
+}
+
+
+.mc-button{
+  /* background-color: #9ccac5; */
+  background-color: white;
+  align-items: center;
+  margin-top: 10px;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: -5px 5px 30px #ffffff, 5px -5px 100px #9ccac5;
+  cursor: pointer;
+}
+
+.mc-button:hover{
+  background-color: #9ccac5;
+}
+.mc-button-info{
+  color: #9ccac5;
+  text-decoration: none;
+  font-size: 15px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+.mc-button-info:hover{
+  color: white;
+}
+
+.heart-button{
+  cursor: pointer;
+  padding-bottom: 3%;
+}
+
+.heart-image{
+  font-size:25px;
+}
+.heart-image:hover{
+  font-size:27px;
+}
+/* .button-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mem-btn {
+  width: 160px;
+  height: 35px;
+  margin: 4%;
+  padding: 2px;
+  border: 2px solid black;
+  border-radius: 10px;
+  font-size: 16px;
+  color: #253649;
+  transition: background-color 0.3s ease;
+}
+
+.mem-btn:hover {
+  background-color: rgb(140, 186, 140);
+  color: white;
+
+
+.mem-btn a {
+  font-size: 16px;
+  color: #253649;
+}
+
+
+
+
+
+.dog-link {
+  text-decoration: none;
+  color: #253649;
+}
+
+.dog-container {
+  /* border: 1px solid black; */
+  /* display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 10px 0; */
+  /* border-radius: 10px;
+  height: 150px;
+
+  
+  margin: 5px;
+  margin-bottom: 10px; 
+  /* padding: 20px;
+  justify-content: center; */
+
+
+/* }  */
+
+/* .dog-img-sm {
+  height: 50px;
+} */
+
+@media (max-width: 768px) {
+  .member-card-wrapper {
+    width: 350px;
+    padding: 20px;
+  }
+}

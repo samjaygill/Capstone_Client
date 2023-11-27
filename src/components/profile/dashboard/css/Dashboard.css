@@ -1,0 +1,71 @@
+.dashboard-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  box-shadow: -7px 7px 100px #e6e6e6, 7px -7px 100px #ffffff;
+  border-radius: 10px;
+}
+
+  .dashboard-title{
+    font-weight: bold;
+    font-size: 18px;
+    padding:13px;
+    margin:0px;
+  }
+  
+  .dashboard-card {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+    box-sizing: border-box; 
+    border-radius:10px;
+  }
+  
+  .distance,
+  .walkies,
+  .group-walkies,
+  .favourites {
+    border-radius: 10px;
+    width: 25%;
+  background-color: none;
+  }
+
+  .fav-members{
+    font-size: 15px;
+    list-style: auto;
+    padding-top: 5px;
+  }
+
+  .favourites{
+    overflow: scroll;
+    object-fit: cover;
+    font-size: 13px;
+  }
+
+.favourites {
+  overflow: auto;
+  object-fit: cover;
+}
+
+.title {
+  text-align: start !important;
+  font-size: 12px;
+  padding-left: 5px;
+}
+.data {
+  font-weight: bold;
+  font-size: 20px;
+  margin: 15px 0px 0px 0px;
+}
+  .fav-image{
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+  }
+
+  a{
+    color: black;
+  }

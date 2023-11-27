@@ -1,0 +1,30 @@
+.sidebar-container {
+  height: 234px;
+  width: 150px;
+  display: inline-grid;
+  gap: 30px;
+  margin-top: 10%;
+  
+}
+
+
+.sb-button {
+  border-radius: 10px;
+  background: #ffffff;
+  border: none;
+  cursor: pointer;
+  box-shadow: inset -2px 2px 10px #bababa, inset 11px -11px 22px #ffffff;
+}
+.sb-button:hover{
+  color: white;
+}
+.sb-button-info{
+  color: #9ccac5;
+  text-decoration: none;
+  font-size: 25px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+.sb-button-info:hover{
+  color: #7bb8b1;
+}

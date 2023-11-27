@@ -1,0 +1,19 @@
+.group-wrapper {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  justify-items: center;
+  padding: 40px;
+  border-radius: 10px;
+  /* background: #9ccac5; */
+  background: white;
+  /* box-shadow: inset -11px 11px 22px #bababa, inset 11px -11px 22px #ffffff; */
+  box-shadow: -7px 7px 100px #9ccac5, 7px -7px 100px #ffffff;
+  color: #253649;
+  font-weight: 700;
+
+}
+
+.group-wrapper h2 {
+  color: #253649;
+}

@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+
+}
+
+.page-content{
+  margin-top:80px;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+  
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color:white !important;
+  font-family: "Centra", sans-serif !important;
+}
+
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+
+p,
+a,
+li,
+button,
+ul {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+button {
+  border: 0;
+  background-color: transparent;
+}
+
+@media (min-width: 1700px) {
+  main .container {
+    max-width: 100%;
+    padding: 0 150px;
+  }
+}
+@media (max-width: 768px){
+.page-content {
+    padding: 30px;
+}
+}
+
+.headerFAQ{
+  font-weight:bold;
+} 
+
+.block-faqpage{
+  padding-top: 6em;
+  margin-left:30em;
+  margin-right:30em;
+}
+
+
+

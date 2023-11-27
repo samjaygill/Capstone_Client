@@ -1,0 +1,57 @@
+{
+  "name": "capstone_frontend",
+  "version": "0.1.0",
+  "proxy": "http://localhost:8080/",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^5.11.1",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.0.0",
+    "cors": "^2.8.5",
+    "firebase": "^10.5.2",
+    "firebase-functions": "^4.5.0",
+    "firebase-tools": "^12.8.1",
+    "lucide-react": "^0.292.0",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.9.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.11.0",
+    "react-router-dom": "^6.18.0",
+    "react-scripts": "5.0.1",
+    "sass": "^1.69.5",
+    "styled-components": "^6.1.1",
+    "tailwind-merge": "^2.0.0",
+    "tailwindcss-animate": "^1.0.7",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "react-router-dom": "^6.18.0"
+  }
+}

@@ -1,0 +1,118 @@
+.dogform-container {
+  height: 93vh;
+  display: flex;
+  align-items: center;
+  /* text-align: center; */
+  justify-content: center;
+  /* padding: 30px 30px 30px 0px; */
+  background: linear-gradient(
+    270deg,
+    rgba(123, 184, 177, 1) 1%,
+    rgba(247, 247, 239, 1) 100%
+  );
+}
+
+.dogimg1-card {
+  flex: 1;
+  flex: 0 0 33%;
+}
+.dogimg1,
+.dogimg2 {
+  height: 700px;
+  width: auto;
+}
+.dogimg2-card {
+  flex: 3;
+  flex: 0 0 33%;
+
+  text-align: right;
+}
+.dogform-card {
+  flex: 2;
+  flex: 0 0 33%;
+  background-color: #fff;
+  padding: 30px 60px;
+  border-radius: 10px;
+  /* margin: 150px; */
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  border: 2px solid black;
+  align-items: center;
+  box-shadow: -7px 7px 100px #e6e6e6, 7px -7px 100px #ffffff;
+}
+input {
+  padding: 5px;
+  width: 250px;
+  width: 100%;
+  padding: 5px;
+  margin-bottom: 10px;
+  box-sizing: border-box;
+}
+.label {
+  display: block;
+}
+
+.df-button{
+  background-color: #9ccac5;
+  margin-left: 33%;
+  margin-top: 5%;
+  width: 150px;
+  padding: 10px;
+  border-radius: 20px;
+  box-shadow: -7px 7px 30px #9ccac5, 7px -7px 100px #ffffff;
+  cursor: pointer;
+}
+
+.df-button:hover{
+  background-color: white;
+}
+.df-button-info{
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+.df-button-info:hover{
+  color: #9ccac5;
+}
+
+
+@media (max-width: 768px) {
+  .dogform-container {
+    flex-direction: column;
+    margin-top: 6%;
+  }
+
+  .dogimg1,
+.dogimg2 {
+  height: 300px;
+  width: auto;
+}
+
+.dogimg1-card,
+.dogimg2-card{
+  width: 100%;
+  flex: 0 0 10%;
+}
+
+.dogform-card{
+  padding: 10px;
+  margin: 0px 10px;
+  width: 90%;
+}
+
+input{
+  width: 80%;
+}
+
+.df-form{
+  font-size: 12px;
+}
+.df-title{
+  font-size: 15px;
+}
+}

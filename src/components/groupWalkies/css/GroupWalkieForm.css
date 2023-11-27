@@ -1,0 +1,75 @@
+.gw-form-container {
+    height: 93vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px;
+    background: linear-gradient(
+      270deg,
+      rgba(123, 184, 177, 1) 1%,
+      rgba(247, 247, 239, 1) 100%
+    );
+  }
+  
+  /* .dog-card {
+    flex: 1;
+  } */
+  .dog-image {
+    height: 700px;
+    width: auto;
+  }
+  .gw-form-card {
+    flex: 1;
+    flex: 0 0 30%;
+    background-color: #fff;
+    padding: 40px 60px;
+    border-radius: 10px;
+    margin: 30px 100px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border: 2px solid black;
+    align-items: center;
+    box-shadow: -7px 7px 100px #e6e6e6, 7px -7px 100px #ffffff;
+    justify-content: right;
+  }
+  .gw-image-card{
+    flex:2;
+    flex: 0 0 50%;
+    text-align: center;
+
+  }
+  input {
+    padding: 5px;
+    width: 250px;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+  }
+  .label {
+    display: block;
+  }
+  
+  .gw-button{
+      background-color: #9ccac5;
+      align-items: center;
+      margin-top: 10px;
+      width: 150px;
+      padding: 10px;
+      border-radius: 20px;
+      box-shadow: -7px 7px 30px #9ccac5, 7px -7px 100px #ffffff;
+      border: none;
+      color: white;
+      font-variant: small-caps;
+      font-size: 15px;
+      justify-content: center;
+      font-weight: bold;
+      cursor: pointer;
+      margin-left: 30%;
+  }
+  .gw-button:hover{
+    background-color: white;
+    color: #9ccac5;
+  }

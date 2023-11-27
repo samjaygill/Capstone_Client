@@ -1,0 +1,14 @@
+.dog {
+  text-align: center;
+}
+
+.dog p {
+  margin-bottom: 10px;
+  font-weight: 700;
+  color: #253649;
+}
+
+.dog-img-sm {
+  height: 200px;
+  width: auto;
+}

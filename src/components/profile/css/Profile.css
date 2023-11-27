@@ -1,0 +1,112 @@
+.profile-container {
+  padding: 20px;
+  margin: 150px 50px;
+  /* border: 2px solid black; */
+  border-radius: 10px;
+  display: grid;
+  grid-template-columns: 0.3fr 1.4fr 0.3fr;
+  /* grid-template-rows: 0.8fr 1.2fr 1fr; */
+  gap: 18px 18px;
+  grid-auto-flow: row;
+  grid-template-areas:
+    "dashboard dashboard notifications"
+    "sidebar detail detail"
+    "sidebar detail detail";
+  background: linear-gradient(
+    270deg,
+    rgba(123, 184, 177, 1) 1%,
+    rgba(247, 247, 239, 1) 100%
+  );
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.notifications {
+  grid-area: notifications;
+}
+
+.detail {
+  grid-area: detail;
+}
+
+.dashboard {
+  grid-area: dashboard;
+}
+
+.logout {
+  padding-left: 465px;
+}
+
+.notif-button-info{
+  font-variant: small-caps;
+  font-size: 25px;
+  color: #9ccac5;
+  font-weight: bold;
+  cursor: pointer;
+}
+.notif-button-info:hover{
+  color: #7bb8b1;
+}
+
+
+
+
+
+.logout-button{
+  /* background-color: #9ccac5; */
+  background-color: white;
+  align-items: center;
+  margin-top: 20px;
+  width: 150px;
+  padding: 7px;
+  border-radius: 20px;
+  box-shadow: -5px 5px 30px #ffffff, 5px -5px 100px #9ccac5;
+  float: right;
+  cursor: pointer;
+  bottom: 0px;
+}
+
+.logout-button:hover{
+  background-color: #9ccac5;
+}
+.logout-button-info{
+  color: #9ccac5;
+  text-decoration: none;
+  font-size: 18px;
+  font-variant: small-caps;
+  font-weight: bold;
+}
+.logout-button-info:hover{
+  color: white;
+}
+
+.notifications a {
+  color: #253649;
+}
+
+@media (max-width: 768px) {
+  .profile-container {
+    margin: 20px;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "dashboard"
+      "notifications"
+      "sidebar"
+      "detail";
+  }
+  
+  .sidebar,
+  .notifications,
+  .logout {
+    padding-left: 10px;
+  }
+  .notifications{
+    height: 100px;
+  }
+  .sidebar{
+    display: flex;
+    flex-direction: row;
+  }
+}
