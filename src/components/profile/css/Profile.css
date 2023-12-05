@@ -88,19 +88,23 @@
 
 @media (max-width: 768px) {
   .profile-container {
-    margin: 20px;
+    margin: 0px;
     grid-template-columns: 1fr;
     grid-template-areas:
       "dashboard"
       "notifications"
       "sidebar"
       "detail";
+      width: 100%;
+      padding: 0px;
+      margin-top: 150px;
   }
   
   .sidebar,
   .notifications,
   .logout {
     padding-left: 10px;
+    margin: 0px 20px;
   }
   .notifications{
     height: 100px;
