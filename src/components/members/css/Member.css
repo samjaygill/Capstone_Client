@@ -51,3 +51,14 @@
     color: white;
     text-align: center;
 }
+
+@media (max-width: 768px) {
+    .member-wrapper p {
+        font-size: 10px;
+        padding-top: 5px;
+    }
+
+    .member-name {
+        padding: 5px;
+    }
+}

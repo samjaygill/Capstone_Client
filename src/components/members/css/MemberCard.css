@@ -1,6 +1,6 @@
 .member-card-container {
   margin-top: 50px;
-  min-height: 93vh;
+  min-height: 100%;
   display: flex;
   justify-content: center;
   background: linear-gradient(
@@ -9,6 +9,7 @@
     rgba(247, 247, 239, 1) 100%
   );
   padding: 80px;
+  padding-bottom: 55px;
 }
 
 .member-card-wrapper {
@@ -20,7 +21,7 @@
   height: auto;
   width: 100%;
   max-width: 70vh;
-  max-height: 68vh;
+  /* max-height: 68vh; */
   border-radius: 10px;
   box-shadow: -7px 7px 100px #e6e6e6, 7px -7px 100px #ffffff;
 
@@ -170,7 +171,45 @@
 
 @media (max-width: 768px) {
   .member-card-wrapper {
-    width: 350px;
+    width: 100%;
+    padding: 15px;
+    margin-top: 45px;
+  }
+  .member-card-container{
     padding: 20px;
+    min-height: 86vh;
+    padding-bottom: 40px;
+  }
+  .mc-image{
+    max-width: 80%;
+  }
+  .name{
+    font-size: 15px;
+  }
+  .card-details{
+    font-size: 12px;
+  }
+  .mc-dog-image{
+    width: 50px;
+  }
+  .dogs-list{
+    font-size: 10px;
+    padding-bottom: 20px;
+  }
+  .dog-details{
+    margin: 0;
+  }
+  .mc-button{
+    margin: 0;
+    width: 100px;
+  }
+  .mc-button-info{
+    font-size: 12px;
+  }
+  .heart-image{
+    font-size: 20px
+  }
+  .heart-image:hover{
+    font-size: 22px;
   }
 }

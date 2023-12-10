@@ -12,12 +12,15 @@
 @media (max-width: 768px) {
     .members-list-container {
       display: grid;
-      grid-template-columns: repeat(1, 1fr);
+      grid-template-columns: repeat(2, 1fr);
       gap: 20px; 
+      padding: 0;
+      padding-top: 60px;
+      padding-bottom: 45px;
     }
   
     .member-image {
-      width: 80px; 
-      padding-left:50%;
+      width: 100%; 
+      padding-left:0;
     }
   }
