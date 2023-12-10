@@ -10,7 +10,7 @@ const Navbar = () => {
   
   return (
     <div className='navbar'>
-        <span className='talkie-logo'>Walkie Talkie</span>
+        <span className='talkie-logo'>WT</span>
         <div className="user">
             <img src={currentUser.photoURL} alt=''/>
             <span>{currentUser.firstName}</span>
