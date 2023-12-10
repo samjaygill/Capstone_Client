@@ -86,7 +86,7 @@
     align-items: center;
   }
   .dog-card-container {
-    height: auto;
+    height: 92vh;
     padding: 20px;
     margin: unset !important;
     padding-top: 70px;

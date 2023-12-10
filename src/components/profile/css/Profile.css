@@ -97,18 +97,16 @@
       "detail";
       width: 100%;
       padding: 0px;
-      margin-top: 150px;
+      margin-top: 145px;
+      gap: 20px 20px;
+      justify-content: center;
   }
   
-  .sidebar,
+  /* .sidebar,
   .notifications,
   .logout {
-    padding-left: 10px;
-    margin: 0px 20px;
-  }
-  .notifications{
-    height: 100px;
-  }
+    margin: 0px 10px;
+  } */
   .sidebar{
     display: flex;
     flex-direction: row;

@@ -18,14 +18,13 @@ img {
   width: 112px;
   height: auto;
   border-radius: 10px;
-  
 }
 
 .user-details {
   padding-left: 20px;
 }
 
-.cud-button{
+.cud-button {
   /* background-color: #9ccac5; */
   background-color: white;
   align-items: center;
@@ -38,16 +37,28 @@ img {
   cursor: pointer;
 }
 
-.cud-button:hover{
+.cud-button:hover {
   background-color: #9ccac5;
 }
-.cud-button-info{
+.cud-button-info {
   color: #9ccac5;
   text-decoration: none;
   font-size: 15px;
   font-variant: small-caps;
   font-weight: bold;
 }
-.cud-button-info:hover{
+.cud-button-info:hover {
   color: white;
+}
+
+@media (max-width: 768px) {
+  .user-header {
+    padding: 10px 0px 10px 10px;
+  }
+  .current_user_container {
+    height: 170px;
+  }
+  .user-details {
+    font-size: 12px;
+  }
 }

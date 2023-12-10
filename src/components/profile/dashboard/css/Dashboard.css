@@ -6,44 +6,44 @@
   border-radius: 10px;
 }
 
-  .dashboard-title{
-    font-weight: bold;
-    font-size: 18px;
-    padding:13px;
-    margin:0px;
-  }
-  
-  .dashboard-card {
-    display: flex;
-    flex-direction: row;
-    margin: 10px;
-    width: 100%;
-    gap: 10px;
-    text-align: center;
-    box-sizing: border-box; 
-    border-radius:10px;
-  }
-  
-  .distance,
-  .walkies,
-  .group-walkies,
-  .favourites {
-    border-radius: 10px;
-    width: 25%;
+.dashboard-title {
+  font-weight: bold;
+  font-size: 18px;
+  padding: 13px;
+  margin: 0px;
+}
+
+.dashboard-card {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+  width: 100%;
+  gap: 10px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.distance,
+.walkies,
+.group-walkies,
+.favourites {
+  border-radius: 10px;
+  width: 25%;
   background-color: none;
-  }
+}
 
-  .fav-members{
-    font-size: 15px;
-    list-style: auto;
-    padding-top: 5px;
-  }
+.fav-members {
+  font-size: 15px;
+  list-style: auto;
+  padding-top: 5px;
+}
 
-  .favourites{
-    overflow: scroll;
-    object-fit: cover;
-    font-size: 13px;
-  }
+.favourites {
+  overflow: scroll;
+  object-fit: cover;
+  font-size: 13px;
+}
 
 .favourites {
   overflow: auto;
@@ -60,12 +60,28 @@
   font-size: 20px;
   margin: 15px 0px 0px 0px;
 }
-  .fav-image{
-    height: 20px;
-    width: 20px;
-    border-radius: 50%;
-  }
+.fav-image {
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+}
 
-  a{
-    color: black;
+a {
+  color: black;
+}
+
+@media (max-width: 768px) {
+  /* .dashboard-container {
+    margin: 0px 10px;
+  } */
+  .title{
+    font-size: 10px;
   }
+  .data{
+    font-size: 12px;
+    margin-top: 5px;
+  }
+  .notif-button-info {
+  font-size: 20px;
+  }
+}

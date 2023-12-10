@@ -30,3 +30,15 @@
   padding-top: 1%;
   padding-bottom: 1%;
 }
+
+@media (max-width: 768px) {
+.notifications {
+margin: 0 20px;
+}
+.no-not{
+  font-size: 12px;
+}
+.notifications-container{
+padding-left: 10px;
+}
+}

@@ -31,7 +31,7 @@
   flex: 2;
   flex: 0 0 33%;
   background-color: #fff;
-  padding: 30px 60px;
+  padding: 20px 60px;
   border-radius: 10px;
   /* margin: 150px; */
   width: auto;
@@ -48,71 +48,92 @@ input {
   width: 250px;
   width: 100%;
   padding: 5px;
-  margin-bottom: 10px;
   box-sizing: border-box;
 }
 .label {
   display: block;
 }
 
-.df-button{
+.df-button {
   background-color: #9ccac5;
   margin-left: 33%;
-  margin-top: 5%;
   width: 150px;
-  padding: 10px;
+  padding: 5px;
   border-radius: 20px;
   box-shadow: -7px 7px 30px #9ccac5, 7px -7px 100px #ffffff;
   cursor: pointer;
 }
 
-.df-button:hover{
+.df-button:hover {
   background-color: white;
 }
-.df-button-info{
+.df-button-info {
   color: white;
   text-decoration: none;
-  font-size: 20px;
+  font-size: 15px;
   font-variant: small-caps;
   font-weight: bold;
 }
-.df-button-info:hover{
+.df-button-info:hover {
   color: #9ccac5;
 }
 
+.df-title {
+  font-size: 20px;
+}
 
 @media (max-width: 768px) {
   .dogform-container {
+    max-width: 770px;
+    height: 90vh;
+    display: flex;
     flex-direction: column;
-    margin-top: 6%;
+    justify-content: center;
   }
-
   .dogimg1,
-.dogimg2 {
-  height: 300px;
-  width: auto;
+  .dogimg2 {
+    height: 100px;
+  }
+  .dogform-card {
+    width: 80%;
+    padding: 10px;
+    margin: 0;
+    position: fixed;
+    font-size: 10px;
+  }
+  .df-title {
+    font-size: 15px;
+  }
+  .df-button-info{
+    font-size: 12px;
+  }
+  .df-button{
+    width: 100px;
+  }
 }
-
-.dogimg1-card,
-.dogimg2-card{
-  width: 100%;
-  flex: 0 0 10%;
+@media (min-width: 780px) and (max-width: 1024px) {
+.dogform-container{
+  height: 92vh;
+  width: 1070px;
+  align-items: normal;
 }
-
 .dogform-card{
-  padding: 10px;
-  margin: 0px 10px;
-  width: 90%;
+  height: 75%;
+  margin-top: 70px;
+  padding: 10px 30px ;
 }
-
-input{
-  width: 80%;
+.dogimg1,
+.dogimg2 {
+height: 400px;
 }
-
 .df-form{
   font-size: 12px;
 }
 .df-title{
   font-size: 15px;
+}
+input#file{
+  margin: 0px;
+  padding:0px;
 }
 }

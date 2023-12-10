@@ -16,6 +16,6 @@
     padding: 0.5em;
     font-size: 8px;
     margin-top: 0;
-position: absolute;
+    position: fixed;
   }
 }

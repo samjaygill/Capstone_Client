@@ -50,7 +50,7 @@ const Notification = ({users, onDeleteNotification, onCreateWalkie}) => {
       }
     })
   ) : (
-    <p>No notifications available</p>
+    <p className='no-not'>No notifications available</p>
   )}
   </div>
   )
