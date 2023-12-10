@@ -1,6 +1,6 @@
 .member-card-container {
   margin-top: 50px;
-  min-height: 100%;
+  min-height: 89vh;
   display: flex;
   justify-content: center;
   background: linear-gradient(
@@ -181,7 +181,7 @@
     padding-bottom: 40px;
   }
   .mc-image{
-    max-width: 80%;
+    max-width: 65%;
   }
   .name{
     font-size: 15px;

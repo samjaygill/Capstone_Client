@@ -179,4 +179,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 .logo{
   padding-left: 30px;
 }
+.logo-container{
+  z-index: 2;
+}
 }

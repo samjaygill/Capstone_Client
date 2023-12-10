@@ -81,16 +81,32 @@
     flex-direction: column;
     height: auto;
     text-align: center;
-    width: 350px;
+    width: 100%;
     padding: 20px;
+    align-items: center;
   }
   .dog-card-container {
-    height: 693px;
+    height: auto;
     padding: 20px;
     margin: unset !important;
+    padding-top: 70px;
+    padding-bottom: 40px;
   }
   .dog-img{
-    width: 80%;
-    margin-left: 10%;
+    width: 50%;
+    height: auto;
+  }
+  .dog-card-details{
+    text-align: center;
+    padding-left: 0;
+    font-size: 13px;
+  }
+  .dg-back-button {
+    margin-left: 0px;
+    padding: 5px;
+    width: 45%;
+  }
+  .gd-back-button-info {
+    font-size: 12px;
   }
 }
