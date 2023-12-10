@@ -82,14 +82,31 @@
   }
 
   @media (max-width: 768px) {
+    .walkieform-container{
+      padding: 0 5px;
+      align-items: normal;
+      padding-top: 60px;
+      height: 90vh;
+    }
     .walkieform-card {
+      position: absolute;
+      z-index: 2;
       margin: 0;
       font-size: 12px;
       padding: 20px;
+      flex: 2;
+      width: 60%;
+      opacity: 0.9;
+      margin-top: 150px;
+    }
+    .dog1-card{
+      flex: 1;
+      z-index: 1;
+      position: absolute;
     }
     .w-dog-image {
-      height: 150px;
-      width: auto;
+      height: 98%;
+      width: 98%;
       padding-left: 0;
     }
     .wf-title{
