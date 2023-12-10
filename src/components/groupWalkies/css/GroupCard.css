@@ -1,8 +1,9 @@
 .group-card-container {
-  height: 95vh;
+  height: 88vh;
   display: flex;
   align-items: center;
   justify-content: center;
+  /* max-height: 92vh; */
 }
 
 .group-card-wrapper {
@@ -10,8 +11,9 @@
   flex-direction: row;
   text-align: center;
   padding: 3%;
-  height: 52%;
-  width: 60%;
+  margin: 5% 0;
+  height: 70%;
+  width: 55%;
   border-radius: 19px;
   background: #9ccac5;
   box-shadow: inset -11px 11px 22px #bababa, inset 11px -11px 22px #ffffff;
@@ -39,8 +41,9 @@ h2 {
 }
 
 .gw-card-image {
-  height: 70%;
-  width: auto;
+  height: 60%;
+  width: 90%;
+  margin-bottom: 10px;
 }
 
 .gc-button {
