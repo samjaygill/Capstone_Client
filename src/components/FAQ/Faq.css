@@ -1,4 +1,14 @@
-@media (max-width: 750px) {
+.headerFAQ {
+  font-weight: bold;
+}
+
+.block-faqpage {
+  padding-top: 4em;
+  margin-left: 25em;
+  margin-right: 25em;
+}
+
+@media (max-width: 450px) {
   .block-faqpage {
     width: 100%;
   }
@@ -13,12 +23,35 @@
   .answerFAQ {
     font-size: 10px; /* Adjust font size for smaller screens */
   }
-  .headerFAQ{
-    font-weight:bold;
-  } 
-  
-  .block-faqpage{
+  .headerFAQ {
+    font-weight: bold;
+  }
+
+  .block-faqpage {
     padding: 4em 1em 3em 1em;
-    
+    margin: 0;
+  }
+}
+@media (min-width: 450px) and (max-width: 1145px) {
+
+  .headerFAQ {
+    font-size: 14px; /* Adjust font size for smaller screens */
+  }
+
+  .paragraph {
+    padding-left: 12px; /* Add some left padding for better readability */
+  }
+
+  .answerFAQ {
+    font-size: 12px; /* Adjust font size for smaller screens */
+  }
+  .headerFAQ {
+    font-weight: bold;
+  }
+
+  .block-faqpage {
+    padding: 4em 1em 3em 1em;
+    margin-left: 12em;
+    margin-right: 12em;
   }
 }
