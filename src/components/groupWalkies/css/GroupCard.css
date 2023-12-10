@@ -14,8 +14,8 @@
   width: 60%;
   border-radius: 19px;
   background: #9ccac5;
-  box-shadow: inset -11px 11px 22px #bababa,
-  inset 11px -11px 22px #ffffff;}
+  box-shadow: inset -11px 11px 22px #bababa, inset 11px -11px 22px #ffffff;
+}
 
 .group-card-details {
   flex: 1;
@@ -38,13 +38,12 @@ h2 {
   color: #253649;
 }
 
-.gw-card-image{
+.gw-card-image {
   height: 70%;
   width: auto;
 }
 
-
-.gc-button{
+.gc-button {
   /* background-color: #9ccac5; */
   background-color: white;
   align-items: center;
@@ -55,30 +54,72 @@ h2 {
   border-radius: 20px;
   box-shadow: -7px 7px 30px #ffffff, 7px -7px 100px #9ccac5;
   cursor: pointer;
-
 }
-.button-container{
+.button-container {
   /* justify-content: end; */
   text-align: end;
   margin-top: 100%;
 }
 
-.gc-button:hover{
+.gc-button:hover {
   background-color: #9ccac5;
 }
-.gc-button-info{
+.gc-button-info {
   color: #9ccac5;
   text-decoration: none;
   font-size: 15px;
   font-variant: small-caps;
   font-weight: bold;
 }
-.gc-button-info:hover{
+.gc-button-info:hover {
   color: white;
-
 }
 
 .attendees a {
   color: #253649;
   font-size: 15px;
+}
+@media (max-width: 768px) {
+  .group-card-container {
+    padding-top: 60px;
+    align-items: normal;
+    min-height: 100%;
+    height: 86vh;
+  }
+  .group-card-wrapper{
+    width: 95%;
+    height: 90%;
+    margin-bottom: 40px;
+  }
+  .gw-card-image{
+    height: 45%;
+    width: 154%;
+    margin-bottom: 10px;
+  }
+  .attendees{
+    padding-top: 60%;
+    height: 100%;
+  }
+  .group-card-details {
+  font-size: 12px;
+  text-align: center;
+  width: 60%;
+  }
+  a.users{
+    font-size: 10px;
+  }
+  .users::marker{
+font-size: 10px;
+  }
+  .gc-button{
+    width: 60%;
+    margin-top: 10px;
+  }
+  .gc-button-info{
+    font-size: 10px;
+  }
+  h2{
+    padding-bottom: 10px;
+  }
+
 }

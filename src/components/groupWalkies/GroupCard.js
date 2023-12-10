@@ -42,7 +42,7 @@ const GroupCard = ({ groupWalkies, onAddUser, onRemoveUser }) => {
 
           {selectedWalk.users.map((user) => (
             <li className="users" key={user.id}>
-              <Link to={`/members/${user.id}`}>
+              <Link to={`/members/${user.id}`} className="users">
                 {user.firstName} {user.lastName}
               </Link>
             </li>
