@@ -89,7 +89,7 @@
     height: 92vh;
     padding: 20px;
     margin: unset !important;
-    padding-top: 70px;
+    padding-top: 35px;
     padding-bottom: 40px;
   }
   .dog-img{
@@ -99,12 +99,12 @@
   .dog-card-details{
     text-align: center;
     padding-left: 0;
-    font-size: 13px;
+    font-size: 11px;
   }
   .dg-back-button {
     margin-left: 0px;
     padding: 5px;
-    width: 45%;
+    width: 55%;
   }
   .gd-back-button-info {
     font-size: 12px;

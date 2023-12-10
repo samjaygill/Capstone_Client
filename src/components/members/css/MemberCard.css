@@ -169,7 +169,7 @@
   height: 50px;
 } */
 
-@media (max-width: 768px) {
+@media (max-width: 750px) {
   .member-card-wrapper {
     width: 100%;
     padding: 15px;
@@ -211,5 +211,42 @@
   }
   .heart-image:hover{
     font-size: 22px;
+  }
+}
+@media (min-width: 760px) and (max-width: 1026px) {
+  .mc-dog-image {
+    width: 60px;
+    height: auto;
+  }
+  .dog-link{
+    font-size: 10px;
+  }
+  .card-details{
+    font-size: 12px;
+  }
+  .name{
+    font-size: 16px;
+  }
+  .heart-image{
+    font-size: 19px;
+  }
+  .heart-image:hover{
+    font-size: 20px;
+  }
+  .dog-details{
+    margin: 10px 10px 0px 10px;
+  }
+  .mc-image{
+    max-width: 40%;
+  }
+  .mc-button{
+    margin: 0;
+    padding: 5px;
+  }
+  .member-card-wrapper{
+    margin: 1%;
+  }
+  .member-card-container{
+    padding: 70px;
   }
 }

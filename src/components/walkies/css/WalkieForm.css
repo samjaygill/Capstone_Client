@@ -1,5 +1,5 @@
 .walkieform-container {
-    height: 93vh;
+    height: 91vh;
     display: flex;
     align-items: center;
     text-align: center;
@@ -17,7 +17,7 @@
   }
   .w-dog-image {
     height: auto;
-    width: 110%;
+    width: 90%;
     padding-left: 30px;
   }
   .dog2-card{
@@ -81,7 +81,7 @@
     padding-bottom: 10px;
   }
 
-  @media (max-width: 768px) {
+  @media (max-width: 760px) {
     .walkieform-container{
       padding: 0 5px;
       align-items: normal;
@@ -124,3 +124,56 @@
       z-index: 0;
     }
   }
+@media (min-width: 760px) and (max-width: 900px) {
+
+  .walkieform-container{
+    padding: 0 5px;
+    align-items: normal;
+    padding-top: 60px;
+    min-height: 85vh;
+    max-height: 95vh;
+  }
+  .walkieform-card {
+    position: absolute;
+    z-index: 2;
+    margin: 0;
+    font-size: 12px;
+    padding: 20px;
+    flex: 2;
+    width: 40%;
+    opacity: 0.9;
+    margin-top: 150px;
+  }
+  .dog1-card{
+    flex: 1;
+    z-index: 1;
+    position: absolute;
+  }
+  .w-dog-image {
+    height: 50%;
+    width: 50%;
+    padding-left: 0;
+    padding-top: 5px;
+  }
+  .wf-title{
+    font-size: 18px;
+  }
+  .wf-button-info {
+    font-size: 11px;
+  }
+  .wf-button{
+    margin-top: 5px;
+    margin-left: 0;
+  }
+  .dog1-card {
+    z-index: 0;
+  }
+}
+@media (min-width: 900px) and (max-width: 1024px) {
+  .walkieform-card{
+    padding: 30px 40px;
+  }
+  .walkieform-container{
+    height: 87vh;
+  }
+}
