@@ -7,7 +7,7 @@
 .navbar > .container-xxl {
   align-items: center;
   height: 70px;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   width: 100%;
   display: -webkit-inline-box;
 }
@@ -42,9 +42,9 @@ nav.navbar.scrolled {
 }
 
 nav.navbar a.navbar-brand {
-  max-width: 8%;
+  max-width: 100%;
   height: auto;
-  padding-top: 22px;
+  /* padding-top: 22px; */
 }
 
 .logo-container {
@@ -182,7 +182,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     margin-right: 0;
   }
   .logo {
-    padding-left: 30px;
+    padding: 0px;
   }
   .logo-container {
     z-index: 2;
