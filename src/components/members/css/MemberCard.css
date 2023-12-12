@@ -110,75 +110,19 @@
 .heart-image:hover{
   font-size:27px;
 }
-/* .button-container{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.mem-btn {
-  width: 160px;
-  height: 35px;
-  margin: 4%;
-  padding: 2px;
-  border: 2px solid black;
-  border-radius: 10px;
-  font-size: 16px;
-  color: #253649;
-  transition: background-color 0.3s ease;
-}
-
-.mem-btn:hover {
-  background-color: rgb(140, 186, 140);
-  color: white;
-
-
-.mem-btn a {
-  font-size: 16px;
-  color: #253649;
-}
-
-
-
-
-
-.dog-link {
-  text-decoration: none;
-  color: #253649;
-}
-
-.dog-container {
-  /* border: 1px solid black; */
-  /* display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px 0; */
-  /* border-radius: 10px;
-  height: 150px;
-
-  
-  margin: 5px;
-  margin-bottom: 10px; 
-  /* padding: 20px;
-  justify-content: center; */
-
-
-/* }  */
-
-/* .dog-img-sm {
-  height: 50px;
-} */
 
 @media (max-width: 750px) {
   .member-card-wrapper {
-    width: 100%;
-    padding: 15px;
-    margin-top: 45px;
+    padding: 15px 15px 0px 15px;
+    margin-top: 50px;
+    max-height: 70%;
   }
   .member-card-container{
     padding: 20px;
-    min-height: 86vh;
+    min-height: 80vh;
     padding-bottom: 40px;
+    width: 100%;
   }
   .mc-image{
     max-width: 65%;
@@ -201,13 +145,14 @@
   }
   .mc-button{
     margin: 0;
-    width: 100px;
+    width: 120px;
   }
   .mc-button-info{
     font-size: 12px;
   }
   .heart-image{
-    font-size: 20px
+    font-size: 20px;
+    color: black;
   }
   .heart-image:hover{
     font-size: 22px;
