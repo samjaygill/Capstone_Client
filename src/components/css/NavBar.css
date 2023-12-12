@@ -93,6 +93,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   margin-top: 130px;
   top:0;
   left:0;
+  margin-left: 10px;
 }
 .navbar-toggler.collapsed[aria-expanded="true"]{
   position:fixed;

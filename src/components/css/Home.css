@@ -101,7 +101,7 @@ p {
 
 
 
-@media screen and (max-width: 428px) {
+@media screen and (max-width: 438px) {
   .home-container {
     margin-top: 50px;
     padding-top: 70px;
@@ -122,17 +122,17 @@ p {
   }
 
   .dogs {
-    height: 250px;
+    height: 350px;
     margin: 0;
   }
 
   .details {
     padding-left: 0;
-    font-size: 25px;
+    font-size: 35px;
     text-align: start;
   }
 }
-@media (min-width: 428px) and (max-width: 1026px) {
+@media (min-width: 438px) and (max-width: 1026px) {
   .details{
     font-size: 40px;
     padding-left: 60px;
