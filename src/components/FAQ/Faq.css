@@ -7,21 +7,24 @@
   margin-left: 25em;
   margin-right: 25em;
 }
+.collapse {
+display: table;
+}
 
 @media (max-width: 450px) {
   .block-faqpage {
     width: 100%;
   }
   .headerFAQ {
-    font-size: 11px; /* Adjust font size for smaller screens */
+    font-size: 11px; 
   }
 
   .paragraph {
-    padding-left: 10px; /* Add some left padding for better readability */
+    padding-left: 10px; 
   }
 
   .answerFAQ {
-    font-size: 10px; /* Adjust font size for smaller screens */
+    font-size: 10px; 
   }
   .headerFAQ {
     font-weight: bold;

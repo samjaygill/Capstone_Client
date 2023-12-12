@@ -40,9 +40,10 @@ nav.navbar {
   position: fixed;
   width: 100%;
   top: 0;
-  z-index: 1;
+  z-index: 5;
   transition: 0.32s ease-in-out;
   background-color: white;
+
 }
 
 nav.navbar.scrolled {

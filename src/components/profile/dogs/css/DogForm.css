@@ -85,20 +85,19 @@ input {
 @media (max-width: 768px) {
   .dogform-container {
     max-width: 770px;
-    height: 90vh;
+    height: 92vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
   .dogimg1,
   .dogimg2 {
-    height: 100px;
+    display: none;
   }
   .dogform-card {
     width: 80%;
     padding: 10px;
     margin: 0;
-    position: fixed;
     font-size: 10px;
   }
   .df-title {

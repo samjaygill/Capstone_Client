@@ -41,7 +41,11 @@
       gap: 0;
     }
 
-  
+    .logo {
+      color: #364f6b;
+      font-weight: bold;
+      font-size: 24px;
+    }
 
     .small-logo {
       width: 100px;
@@ -138,6 +142,7 @@
     height: 80%;
     display: flex;
     overflow: hidden;
+    padding: 0;
 
     @include mobile {
       width: 95%;
@@ -165,10 +170,12 @@
         height: 50px;
         padding: 10px;
         justify-content: space-between;
+        align-content: center;
+
         color: white;
         @include mobile {
-          justify-content: end;
           height: 40px;
+          padding: 10px 5px;
         }
 
         .nav-name {
@@ -193,7 +200,8 @@
           height: 35px;
           width: auto;
           @include mobile {
-            height: 25px;
+            height: 20px;
+            padding: 0;
           }
         }
 
@@ -237,9 +245,13 @@
             border: none;
             color: white;
             outline: none;
+            @include mobile {
+              font-size: 12px;
+                        }
 
             &::placeholder {
               color: rgb(212, 212, 212);
+          
             }
           }
         }

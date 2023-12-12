@@ -12,3 +12,11 @@
   height: 200px;
   width: auto;
 }
+
+@media screen and (max-width: 600px) {
+  .dog-img-sm {
+    height: 100px;
+    width: auto;
+  }
+
+}
