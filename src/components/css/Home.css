@@ -122,7 +122,8 @@ p {
   }
 
   .dogs {
-    height: 350px;
+    height: 85%;
+    width: 85%;
     margin: 0;
   }
 
