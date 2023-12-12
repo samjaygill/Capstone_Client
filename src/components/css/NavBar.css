@@ -16,10 +16,15 @@
   width: 100%;
 }
 .navbar-nav {
-
   padding: 70px 0px 0px 110px;
-
 }
+.me-auto{
+  background-color: white;
+  opacity: 0.7;
+  padding: 10px 0px 10px 10px;
+  border-radius: 10px 0px;
+}
+
 
 nav.navbar {
   padding: 0px 0;
@@ -58,7 +63,7 @@ nav.navbar .navbar-nav .nav-link.navbar-link {
   color: #253649 !important;
   letter-spacing: 0.8px;
   padding: 0 30px;
-  font-size: 20px;
+  font-size: 13px;
   opacity: 0.75;
 }
 
@@ -171,15 +176,15 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 
 @media screen and (max-width: 768px) {
-.navbar-link .account-info img {
-  height: 50px;
-  width: 50px;
-  margin-right: 0;
-}
-.logo{
-  padding-left: 30px;
-}
-.logo-container{
-  z-index: 2;
-}
+  .navbar-link .account-info img {
+    height: 50px;
+    width: 50px;
+    margin-right: 0;
+  }
+  .logo {
+    padding-left: 30px;
+  }
+  .logo-container {
+    z-index: 2;
+  }
 }

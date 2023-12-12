@@ -96,25 +96,23 @@ function NavBar() {
               >
                 FAQ
               </Nav.Link>
-
-              <Nav.Link
-                href="/profile"
-                className={
-                  activeLink === "profile"
-                    ? "active navbar-link"
-                    : "navbar-link"
-                }
-                onClick={() => onUpdateActiveLink("profile")}
-              >
-                {currentUser && (
-                  <div className="account-info">
-                    {/* <span>{currentUser.firstName}'s profile</span> */}
-                    <img src={currentUser.photoURL} alt="User" />
-                  </div>
-                )}
-              </Nav.Link>
             </Nav>
           </Navbar.Collapse>
+
+          <Nav.Link
+            href="/profile"
+            className={
+              activeLink === "profile" ? "active navbar-link" : "navbar-link"
+            }
+            onClick={() => onUpdateActiveLink("profile")}
+          >
+            {currentUser && (
+              <div className="account-info">
+                {/* <span>{currentUser.firstName}'s profile</span> */}
+                <img src={currentUser.photoURL} alt="User" />
+              </div>
+            )}
+          </Nav.Link>
         </Container>
       </Navbar>
     </>

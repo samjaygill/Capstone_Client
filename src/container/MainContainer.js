@@ -26,6 +26,8 @@ import GroupWalkieForm from "../components/groupWalkies/GroupWalkieForm";
 import Footer from "../components/Footer";
 import Faq from "../components/FAQ/Faq";
 import CurrentUserForm from "../components/profile/currentUser/CurrentUserForm";
+import "bootstrap/dist/css/bootstrap.min.css";
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 
 
 const MainContainer = () => {
