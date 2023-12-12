@@ -14,7 +14,7 @@
   justify-content: center;
   align-items: start;
   padding: 0;
-  height: 170px;
+  height: 135px;
 }
 nav.navbar {
   top: 0;
@@ -90,7 +90,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 
 .navbar-toggler.collapsed{
   position:fixed;
-  margin-top: 130px;
+  margin-top: 100px;
   top:0;
   left:0;
   margin-left: 10px;
@@ -207,7 +207,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   }
   .logo {
     padding: 0px;
-    height: 150px;
+    height: 110px;
   }
 
 nav.navbar .navbar-nav .nav-link.navbar-link {
